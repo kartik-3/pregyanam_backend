@@ -1,0 +1,10 @@
+import React, { useCallback } from "react";
+import { debounce } from "lodash";
+
+const handler = useCallback(debounce(someFunction, 2000), []);
+
+const onChange = (event) => {
+    // perform any event related action here
+
+    handler();
+ };
