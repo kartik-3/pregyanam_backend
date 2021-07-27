@@ -1,5 +1,4 @@
 runtime: nodejs14
-service: backend
 handlers:
   - url: /.*
     script: auto
